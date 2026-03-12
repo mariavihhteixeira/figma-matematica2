@@ -1,16 +1,22 @@
-* {
+
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+/* CORPO DA PÁGINA */
+body
+{
     background-color: #7FFBF0;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
 
-.container {
+/* CONTAINER PRINCIPAL */
+.container
+{
     max-width: 1200px;
     margin: 0 auto;
     background-color: #7FFBF0;
@@ -18,14 +24,17 @@ body {
     padding: 30px;
 }
 
-.header {
+/* CABEÇALHO */
+.header
+{
     background-color: #B0F0ED;
     padding: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.header h1 {
+.header h1
+{
     background-color: #1B7A7A;
     color: white;
     padding: 15px;
@@ -34,7 +43,8 @@ body {
     font-size: 24px;
 }
 
-.header p {
+.header p
+{
     background-color: #1B7A7A;
     color: white;
     padding: 20px;
@@ -42,83 +52,103 @@ body {
     line-height: 1.5;
 }
 
-.content {
+/* CONTEÚDO PRINCIPAL */
+.content
+{
     display: flex;
     gap: 20px;
 }
 
-.products {
+.products
+{
     flex: 1;
 }
 
-.product {
-    margin-bottom: 40px;
+/* PRODUTOS */
+.product
+{
+    margin-bottom: 15px;
 }
 
-.product h3 {
+.product h3
+{
     background-color: #1B7A7A;
     color: white;
     padding: 10px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 16px;
 }
 
-.product img {
-    width: 100%;
-    max-width: 300px;
+.product img
+{
+    width: 80%;
+    max-width: 250px;
     height: auto;
-    margin-bottom: 15px;
+    margin: 0 auto 8px;
+    display: block;
 }
 
-.price {
+.price
+{
     font-size: 18px;
     font-weight: bold;
     background-color: #E0F5F4;
-    padding: 10px;
+    padding: 8px 12px;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
-.sidebar {
+/* BARRA LATERAL */
+.sidebar
+{
     width: 280px;
 }
 
-.referencia {
+.referencia
+{
     background-color: #001F3F;
     color: white;
     padding: 20px;
     border-radius: 0;
+    position: relative;
 }
 
-.referencia h4 {
+.referencia h4
+{
     background-color: #1B7A7A;
     color: white;
     padding: 8px 12px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     font-size: 14px;
 }
 
-.referencia img {
+.referencia img
+{
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
-.tag {
+.tag
+{
     background-color: #7FFBF0;
     color: #001F3F;
-    padding: 8px;
-    margin-bottom: 15px;
+    padding: 6px;
+    margin-bottom: 10px;
     font-size: 12px;
     font-weight: bold;
 }
 
-.referencia .texto {
+.referencia .texto
+{
     font-size: 13px;
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.footer {
+/* RODAPÉ */
+.footer
+{
     background-color: #1B7A7A;
     color: white;
     padding: 15px;
